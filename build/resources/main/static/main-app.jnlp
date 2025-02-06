@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/" href="main-app.jnlp">
+    <information>
+        <title>MainApp JNLP Example</title>
+        <vendor>Jayksss</vendor>
+        <description>JNLP Application</description>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.8+" />
+        <jar href="main-app.jar" main="true" />
+    </resources>
+    <application-desc main-class="com.jayksss.jnlpserver.MainApp" />
+</jnlp>
